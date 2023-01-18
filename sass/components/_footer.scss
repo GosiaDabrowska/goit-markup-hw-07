@@ -1,3 +1,64 @@
+footer {
+  background-color: $accent-color;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-wrap {
+  display: flex;
+  align-items: baseline;
+  gap: 70px;
+}
+
+&_list {
+  margin-top: 20px;
+
+  &--li {
+    margin-bottom: 9px;
+  }
+  &--adress {
+    line-height: 1.71;
+    color: $brand-white;
+    font-style: normal;
+    margin-bottom: 9px;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      color: $action-color;
+      outline: none;
+    }
+  }
+
+  &--contact {
+    line-height: 1.71;
+    color: $footer-contact;
+    font-style: normal;
+    margin-bottom: 9px;
+
+    transition-property: color;
+    transition-duration: $defaultTransitionDuration;
+    transition-timing-function: $defaultTransitionTiming;
+
+    &:hover,
+    &:focus {
+      color: $action-color;
+      outline: none;
+    }
+  }
+}
+
 .logo_studio--footer {
   color: $brand-white;
+}
+
+.join-us {
+  color: $brand-white;
+  font-size: 14px;
+  line-height: 1.1428;
+  letter-spacing: 0.03em;
+  font-weight: 700;
 }
