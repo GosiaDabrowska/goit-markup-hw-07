@@ -18,8 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link href="../style.css/styles.css" rel="stylesheet" />
-    <link href="../style.css/visually-hidden.css" rel="stylesheet" />
+    <link href="../css/main.min.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -71,30 +70,30 @@
             <li><button class="button-offer" type="button">Marketing</button></li>
           </ul>
 
-          <!--Ikony portfolio-->
-          <ul class="nav-list-portfolio">
+          <!--Portfolio-->
+          <ul class="portfolio">
             <!--pierwsze zdjęcie-->
             <li>
-              <a href="a"
-                ><div class="portfolio-box">
+              <a class="portfolio-element" href="a"
+                ><div class="portfolio-element_box">
                   <img
-                    class="images-portfolio"
+                    class="portfolio-element_box--image"
                     src="../images/portfolio1.jpg"
                     width="370"
                     height="294"
                     alt="zdjęcie strony internetowej na laptopie"
                   />
                   <div>
-                    <p class="portfolio-overlay">
+                    <p class="portfolio-element_box--overlay">
                       Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania
                       koronawirusa. Firmy wykorzystują tę platformę do celów szpiegowskich i ataków
                       na niezabezpieczone serwery konkurencji
                     </p>
                   </div>
                 </div>
-                <div class="portfolio-icones">
-                  <h3 class="project-name">Technocrack</h3>
-                  <p class="project-type">Strona Internetowa</p>
+                <div class="portfolio-element_icones">
+                  <h3 class="portfolio-element_icones--name">Technocrack</h3>
+                  <p class="portfolio-element_icones--type">Strona Internetowa</p>
                 </div>
               </a>
             </li>
@@ -318,25 +317,27 @@
         <!--początek div "logo i kontakt"-->
         <div>
           <a href="../index.html" class="logo"
-            ><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a
+            ><span class="logo_web">Web</span><span class="logo_studio--footer">Studio</span></a
           >
 
-          <address class="footer-list">
+          <address class="footer-wrap_list">
             <ul>
-              <li>
+              <li class="footer-wrap_list--li">
                 <a
-                  class="footer-adress"
+                  class="footer-wrap_list--adress"
                   href="https://goo.gl/maps/7QSvBzjsEZW71v4u5"
                   target="_blank"
                   rel="nofollow"
                   >m. Warszawa, Aleje Jerozolimskie 21</a
                 >
               </li>
-              <li>
-                <a class="footer-contact" href="mailto:info@example.com">info@example.com</a>
+              <li class="footer-wrap_list--li">
+                <a class="footer-wrap_list--contact" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
               </li>
-              <li>
-                <a class="footer-contact" href="tel:+48111111111">+48 111 111 111</a>
+              <li class="footer-wrap_list--li">
+                <a class="footer-wrap_list--contact" href="tel:+48111111111">+48 111 111 111</a>
               </li>
             </ul>
           </address>
