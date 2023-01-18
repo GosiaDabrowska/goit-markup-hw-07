@@ -13,8 +13,14 @@
   letter-spacing: 0.06em;
   font-family: 'roboto';
   cursor: pointer;
-  transition-property: color, backround-color, outline, box-shadow;
+  transition-property: color, background-color, outline, box-shadow;
   transition: $defaultTransitionDuration, $defaultTransitionTiming;
+
+  &:hover,
+  &:focus {
+    background-color: $brand-white;
+    color: $action-color;
+  }
 }
 
 .close-modal-btn {
@@ -34,8 +40,8 @@
 }
 
 .button-submit {
-  background-color: var(--action-color);
-  color: var(--brand-white);
+  background-color: $action-color;
+  color: $brand-white;
   min-width: 200px;
   height: 50px;
   border-style: none;

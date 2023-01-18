@@ -117,7 +117,7 @@
   }
 }
 
-.checkbox input:checked + svg {
+.checkbox_input:checked + .checkbox_svg {
   opacity: 1;
   color: $action-color;
   border-radius: 2px;
