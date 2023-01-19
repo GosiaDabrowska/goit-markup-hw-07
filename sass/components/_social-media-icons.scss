@@ -29,6 +29,17 @@
       color: $brand-white;
       background-color: $social-media-footer-color;
     }
+
+    &:focus,
+    &:hover {
+      color: var(--brand-white);
+      background-color: var(--action-color);
+      outline: none;
+    }
+
+    &--currentcolor {
+      fill: currentColor;
+    }
   }
 }
 
