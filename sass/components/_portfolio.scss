@@ -82,7 +82,7 @@
   }
 }
 
-.nav-list-portfolio a:hover .portfolio-overlay,
-.nav-list-portfolio a:focus .portfolio-overlay {
+.portfolio a:hover .portfolio-element_box--overlay,
+.portfolio a:focus .portfolio-element_box--overlay {
   transform: translatey(0%);
 }

@@ -58,3 +58,35 @@ footer {
   letter-spacing: 0.03em;
   font-weight: 700;
 }
+
+.newsletter-form {
+  display: flex;
+  margin-top: 20px;
+
+  &:hover,
+  &:focus {
+    border-color: #2196f3;
+    outline: none;
+  }
+
+  &_input {
+    min-width: 358px;
+    height: 50px;
+    padding: 15px 16px 15px 16px;
+    border-radius: 4px;
+    color: $social-media-footer-color;
+    background-color: $accent-color;
+    border-style: none;
+    border: 1px solid $social-media-footer-color;
+    line-height: 1.25;
+    line-height: 20px;
+    font-size: 16px;
+
+    &:hover,
+    &:focus {
+      border-color: $action-color;
+      color: $brand-white;
+      outline: none;
+    }
+  }
+}

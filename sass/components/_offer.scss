@@ -8,8 +8,8 @@
   &_label {
     position: absolute;
     bottom: 0;
-    color: var(--brand-white);
-    background-color: var(--work-photos);
+    color: $brand-white;
+    background-color: $offer-photos;
     text-align: center;
     font-weight: 700;
     width: 100%;
